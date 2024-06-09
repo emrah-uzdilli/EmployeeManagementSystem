@@ -1,0 +1,32 @@
+.container {
+  max-width: 800px;
+  margin-top: 20px;
+}
+#sidebar-wrapper {
+  background: #343a40;
+  min-height: 100vh;
+  color: white;
+  padding: 10px;
+}
+
+.sidebar h3 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+#page-content-wrapper {
+  padding: 20px;
+}
+
+.btn-success, .btn-info, .btn-danger, .btn-warning {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn .fa {
+  margin-right: 10px;
+}
