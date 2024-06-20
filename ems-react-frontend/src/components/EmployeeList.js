@@ -9,8 +9,9 @@ const EmployeeList = ({ employees, onEdit, onDelete }) => {
                         <th>Sl.NO</th>
                         <th>ID</th>
                         <th>Name</th>
-                        <th>position</th>
-                        <th>department</th>
+                        <th>Position</th>
+                        <th>Department</th>
+                        <th>Actions</th>
                     </tr>
                 </thead>
                 <tbody>

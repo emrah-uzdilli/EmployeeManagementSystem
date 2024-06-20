@@ -13,8 +13,11 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
                 <Nav.Link href="#home">
                     <FaHome /> Anasayfa
                 </Nav.Link>
-                <Nav.Link href="#employee-list">
+                <Nav.Link href="employee">
                     <FaUsers /> Employee List
+                </Nav.Link>
+                <Nav.Link href="plans">
+                    <FaUsers /> Plan List
                 </Nav.Link>
                 <Nav.Link href="#logout">
                     <FaSignOutAlt /> LogOut

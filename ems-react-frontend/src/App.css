@@ -30,3 +30,11 @@
 .btn .fa {
   margin-right: 10px;
 }
+.main-content {
+  transition: margin-left 0.3s ease;
+  padding: 20px;
+}
+
+.main-content.shifted {
+  margin-left: 250px;
+}
